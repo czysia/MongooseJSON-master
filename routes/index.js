@@ -34,7 +34,7 @@ db.once('open', function () {
 });
 
 var user = new mongoose.Schema({
-    username: String,
+    userN: String,
     password: String,
     name: String,
     address: String,
