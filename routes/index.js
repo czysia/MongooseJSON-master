@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 // sinh viên bổ sung đường kết nối tới mongoDB của mình vào dòng 4
-var dbConnect = 'mongodb+srv://admin:admin@cluster01.yh6eo.mongodb.net/tinderClone?retryWrites=true&w=majority';
+var dbConnect = 'mongodb+srv://admin:admin@cluster01.yh6eo.mongodb.net/account?retryWrites=true&w=majority';
 // getting-started.js
 const mongoose = require('mongoose');
 mongoose.connect(dbConnect, {useNewUrlParser: true, useUnifiedTopology: true});
